@@ -4,3 +4,7 @@ Integrantes:
 2. Nohemi
 3. Carmen
 4. Lucy
+
+INTERFAZ DE USUARIO
+Objetivo
+Matener todas las lineas de 
