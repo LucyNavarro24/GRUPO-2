@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES:wght@100..400&family=Playwrite+US+Trad:wght@100..400&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(55, 175, 250, 0.395);
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1,
+h2 {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 40px;
+    font-style: normal;
+
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+h3 {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 40px;
+    font-style: normal;
+
+    text-align: left;
+    margin-bottom: 20px;
+    color: #03d58c;
+}
+
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+label {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+input::placeholder {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 20px;
+    font-style: normal;
+
+    text-align: left;
+    margin-bottom: 20px;
+    color: #5b5b5b7d;
+}
+
+button {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+    margin: 20px 0; 
+}
+
+.button-group button {
+    padding: 10px 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #014f33;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result label {
+    font-weight: bold;
+}
+
+.result span {
+    display: block;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 5px;
+    word-wrap: break-word;
+    /* This ensures long texts wrap and don't overflow */
+}
+
+.input-with-icon {
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.input-with-icon input {
+    width: 100%;
+    padding-right: 10px; /* Espacio suficiente para el icono */
+}
+
+.input-with-icon i {
+    position: absolute;
+    right: 5px; 
+    cursor: pointer;
+    color: #007bff; 
+}
+
+.input-with-icon i:hover {
+    color: #0056b3; 
+}
+
+strong {
+    font-weight: bold;
+}

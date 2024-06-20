@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+    <link rel="icon" type="image/png" href="assets/img/candado.png">
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h2>Te cuento algo !!</h2>
+        </div>
+
+        <div class="form-group">
+        <label>Mensaje: </label>
+        <p><input id="mensaje" type="text" placeholder="¡Escribe tu mensaje aquí!" ></p>
+        </div>
+
+        <div class="form-group">
+        <label>Código:</label>
+        <p><input id="desp" type="number" size="4" placeholder="Introduce un número de 1 a 4 dígitos" ></p>
+        </div>
+
+        <div class="button-group">
+            <p><button id="cifrar" type="button"><i class="fas fa-lock"></i> Cifrar</button></p>
+            <p><button id="descifrar" type="button"><i class="fas fa-lock-open"></i> Descifrar</button></p>
+        </div>
+
+        <div class="form-group">
+        <label>Mensaje</label>
+        <div class="input-with-icon">
+            <p><input id="mensaje2" type="text" placeholder="Tu mensaje"></p>
+            <i id="copyIcon" class="fas fa-copy" onclick="copiarTexto()"></i>
+        </div>
+        </div>
+    </div>
+    
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
